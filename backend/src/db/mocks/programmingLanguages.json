@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Python",
+    "developer": "Guido van Rossum",
+    "first_appeared": 1991,
+    "paradigm": ["Object-oriented", "Procedural", "Functional"],
+    "typing_discipline": "Duck, dynamic, strong typing",
+    "usage": ["Web development", "Data science", "Automation"]
+  },
+  {
+    "name": "JavaScript",
+    "developer": "Brendan Eich",
+    "first_appeared": 1995,
+    "paradigm": ["Event-driven", "Functional", "Imperative"],
+    "typing_discipline": "Dynamic",
+    "usage": [
+      "Web development",
+      "Mobile app development",
+      "Server-side scripting"
+    ]
+  },
+  {
+    "name": "Java",
+    "developer": "James Gosling",
+    "first_appeared": 1995,
+    "paradigm": ["Object-oriented", "Class-based"],
+    "typing_discipline": "Static, strong typing",
+    "usage": [
+      "Enterprise applications",
+      "Android app development",
+      "Web applications"
+    ]
+  },
+  {
+    "name": "C++",
+    "developer": "Bjarne Stroustrup",
+    "first_appeared": 1985,
+    "paradigm": ["Procedural", "Object-oriented", "Generic"],
+    "typing_discipline": "Static, strong typing",
+    "usage": ["System software", "Game development", "Embedded systems"]
+  },
+  {
+    "name": "Ruby",
+    "developer": "Yukihiro Matsumoto",
+    "first_appeared": 1995,
+    "paradigm": ["Object-oriented", "Imperative", "Functional"],
+    "typing_discipline": "Dynamic, duck typing",
+    "usage": ["Web development", "Prototyping", "Data analysis"]
+  },
+  {
+    "name": "Go",
+    "developer": "Robert Griesemer, Rob Pike, Ken Thompson",
+    "first_appeared": 2009,
+    "paradigm": ["Concurrent", "Imperative", "Structured"],
+    "typing_discipline": "Static, strong typing",
+    "usage": ["System programming", "Cloud services", "Distributed systems"]
+  }
+]

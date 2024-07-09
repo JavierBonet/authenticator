@@ -1,0 +1,44 @@
+{
+  "name": "authenticator",
+  "version": "1.0.0",
+  "description": "NodeJS authentication and authorization logic with a simple frontend",
+  "main": "build/src/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populate-db": "ts-node ./src/db/populateDb.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierBonet/authenticator.git"
+  },
+  "keywords": [
+    "authenticator",
+    "authorizer"
+  ],
+  "author": "Javier Bonet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierBonet/authenticator/issues"
+  },
+  "homepage": "https://github.com/JavierBonet/authenticator#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6"
+  }
+}

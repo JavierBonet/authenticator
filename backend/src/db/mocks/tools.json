@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Heavy-Duty Hammer",
+    "manufacturer": {
+      "name": "Titan Tools",
+      "country": "USA",
+      "founded_year": 1965,
+      "products": [
+        {
+          "name": "Power Drill",
+          "type": "Cordless",
+          "power_rating": "18V"
+        },
+        {
+          "name": "Circular Saw",
+          "type": "Electric",
+          "power_rating": "1200W"
+        }
+      ]
+    },
+    "category": "Hand Tools",
+    "description": "A robust hammer designed for heavy-duty construction tasks, featuring a steel handle for durability and a textured grip for comfort.",
+    "specs": {
+      "weight": "3.5 lbs",
+      "length": "14 inches",
+      "material": "High-carbon steel head, fiberglass handle"
+    },
+    "usage_tips": [
+      "Use proper safety goggles and gloves when operating.",
+      "Inspect handle regularly for signs of wear or damage.",
+      "Store in a dry place to prevent rust."
+    ]
+  },
+  {
+    "name": "Industrial Power Generator",
+    "manufacturer": {
+      "name": "MegaPower Machines",
+      "country": "Germany",
+      "founded_year": 1978,
+      "products": [
+        {
+          "name": "Excavator",
+          "type": "Heavy Machinery",
+          "power_rating": "250 HP"
+        },
+        {
+          "name": "Concrete Mixer",
+          "type": "Stationary",
+          "power_rating": "5.5 kW"
+        }
+      ]
+    },
+    "category": "Power Equipment",
+    "description": "A high-capacity generator built for industrial use, featuring a diesel engine for reliable power output and multiple outlets for various tools.",
+    "specs": {
+      "output_power": "100 kW",
+      "fuel_capacity": "50 gallons",
+      "weight": "1200 lbs"
+    },
+    "usage_tips": [
+      "Regularly check oil and fuel levels before operation.",
+      "Ensure proper ventilation when running indoors.",
+      "Follow manufacturer's guidelines for maintenance schedules."
+    ]
+  },
+  {
+    "name": "Cordless Drill",
+    "manufacturer": {
+      "name": "ProBuild",
+      "country": "Germany",
+      "founded_year": 1978,
+      "products": [
+        {
+          "name": "Impact Driver",
+          "type": "Cordless",
+          "power_rating": "20V"
+        },
+        {
+          "name": "Angle Grinder",
+          "type": "Electric",
+          "power_rating": "800W"
+        }
+      ]
+    },
+    "category": "Power Tools",
+    "description": "A versatile cordless drill suitable for various construction and DIY projects, featuring variable speed control and a keyless chuck.",
+    "specs": {
+      "weight": "4 lbs",
+      "battery_life": "2 hours",
+      "material": "High-impact plastic and metal"
+    },
+    "usage_tips": [
+      "Charge the battery fully before use.",
+      "Use appropriate drill bits for the material.",
+      "Avoid overloading to prevent motor burnout."
+    ]
+  },
+  {
+    "name": "Electric Sander",
+    "manufacturer": {
+      "name": "CraftMaster",
+      "country": "Japan",
+      "founded_year": 1982,
+      "products": [
+        {
+          "name": "Belt Sander",
+          "type": "Electric",
+          "power_rating": "750W"
+        },
+        {
+          "name": "Orbital Sander",
+          "type": "Electric",
+          "power_rating": "300W"
+        }
+      ]
+    },
+    "category": "Power Tools",
+    "description": "An efficient electric sander perfect for smoothing wood surfaces, featuring variable speed control and a dust collection system.",
+    "specs": {
+      "weight": "5 lbs",
+      "power_rating": "500W",
+      "material": "Aluminum and plastic"
+    },
+    "usage_tips": [
+      "Wear a dust mask to avoid inhaling particles.",
+      "Use the correct grit sandpaper for the task.",
+      "Empty the dust bag regularly."
+    ]
+  },
+  {
+    "name": "Laser Level",
+    "manufacturer": {
+      "name": "Precision Tools",
+      "country": "Canada",
+      "founded_year": 1995,
+      "products": [
+        {
+          "name": "Laser Measure",
+          "type": "Digital",
+          "range": "100 feet"
+        },
+        {
+          "name": "Spirit Level",
+          "type": "Manual",
+          "length": "24 inches"
+        }
+      ]
+    },
+    "category": "Measuring Tools",
+    "description": "A high-accuracy laser level for ensuring precise alignment in construction projects, featuring self-leveling and multiple mounting options.",
+    "specs": {
+      "weight": "2 lbs",
+      "range": "50 feet",
+      "material": "Plastic and metal"
+    },
+    "usage_tips": [
+      "Ensure the surface is stable before use.",
+      "Use in conjunction with a tripod for best results.",
+      "Store in a protective case to prevent damage."
+    ]
+  },
+  {
+    "name": "Multi-Tool",
+    "manufacturer": {
+      "name": "VersaTool",
+      "country": "Switzerland",
+      "founded_year": 1990,
+      "products": [
+        {
+          "name": "Utility Knife",
+          "type": "Manual",
+          "blade_material": "Stainless steel"
+        },
+        {
+          "name": "Screwdriver Set",
+          "type": "Manual",
+          "material": "Chrome-vanadium steel"
+        }
+      ]
+    },
+    "category": "Hand Tools",
+    "description": "A compact and versatile multi-tool equipped with various attachments for cutting, screwing, and other tasks, featuring a foldable design for portability.",
+    "specs": {
+      "weight": "0.5 lbs",
+      "material": "Stainless steel",
+      "attachments": [
+        "Knife",
+        "Screwdriver",
+        "Pliers",
+        "File"
+      ]
+    },
+    "usage_tips": [
+      "Keep blades and attachments clean and dry.",
+      "Use the appropriate attachment for each task.",
+      "Regularly check for loose parts and tighten if necessary."
+    ]
+  }
+]

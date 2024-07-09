@@ -1,0 +1,17 @@
+# Node artifact files
+node_modules/
+dist/
+
+# Log files
+*.log
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+.env
+yarn.lock
