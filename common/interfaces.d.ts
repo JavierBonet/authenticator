@@ -1,4 +1,5 @@
 import { ObjectId } from "mongodb";
+import { JwtPayload } from "jsonwebtoken";
 
 export interface Movie {
   _id: ObjectId;
@@ -59,4 +60,11 @@ export interface ProgrammingLanguage {
   paradigm: string[];
   typing_discipline: string;
   usage: string[];
+}
+
+declare module JWT {
+  export interface Payload extends JwtPayload {
+    email: string;
+    role: string;
+  }
 }

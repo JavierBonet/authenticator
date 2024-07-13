@@ -11,6 +11,7 @@ interface User {
   fullName: string;
   email: string;
   password: string;
+  role: string;
 }
 
 const { mongoUsername, mongoPassword, mongoDbName } = config;

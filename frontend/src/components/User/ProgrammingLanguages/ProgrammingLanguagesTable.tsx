@@ -47,6 +47,12 @@ const styles = {
   productCategory: {
     color: categoryColor,
   },
+  title: {
+    captionSide: 'top',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: '1.5rem',
+  },
 };
 
 const ProgrammingLanguagesTable = ({
@@ -57,6 +63,9 @@ const ProgrammingLanguagesTable = ({
   return (
     <TableContainer component={Paper} sx={styles.tableContainer}>
       <Table>
+        <caption style={styles.title as React.CSSProperties}>
+          Programming Languages
+        </caption>
         <TableHead>
           <TableRow>
             <TableCell

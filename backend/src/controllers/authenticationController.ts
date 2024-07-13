@@ -69,8 +69,8 @@ class AuthenticationController {
           }
 
           message = "Login successfully";
-          const { _id, email } = user;
-          const payload = { id: _id, email };
+          const { _id, email, role } = user;
+          const payload = { id: _id, email, role };
 
           const accessToken = getAccessToken(payload);
           const refreshToken = getRefreshToken(payload);

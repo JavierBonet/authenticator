@@ -28,7 +28,7 @@ export const initialUser: UserRegister = {
 };
 
 const roleOptions = [
-  { label: 'Admin', value: 'admin' },
+  { label: 'Developer', value: 'developer' },
   { label: 'User', value: 'user' },
 ];
 

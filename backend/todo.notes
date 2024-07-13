@@ -1,7 +1,7 @@
 To do list:
 
   BACKEND
-    [ ] Create token refreshment routes and controller, check the logic in
+    [√] Create token refreshment routes and controller, check the logic in
       - https://www.reddit.com/r/reactjs/comments/jjkddv/how_to_store_jwt_in_the_client_side/?rdt=57432
       - https://www.geeksforgeeks.org/jwt-authentication-with-refresh-tokens/
       In the login, I need to retrieve 
@@ -11,7 +11,7 @@ To do list:
     
     [√] Add script that creates collections and populates the DB with mock data (from chatGPT)
 
-    [ ] Create the following protected endpoints:
+    [√] Create the following protected endpoints:
       - /movies: retrieves a list of movies
       - /products: retrieves a list of products
       - /programming-languages: retrieves a list of programming-languages
@@ -19,7 +19,7 @@ To do list:
     
     [√] Create /logout endpoint that removes refreshToken cookie
 
-    [ ] Add role management:
+    [√] Add role management:
       - What I think it's needed is to have a role field in the users collection and retrieve it in the token. Then, using it, we can do validations about it
 
   FRONTEND
@@ -38,7 +38,7 @@ To do list:
 
     [√] Add logout call to log out button
 
-    [ ] When logged in, set a local storage variable that will be used to know if a user is logged or not
+    [√] When logged in, set a local storage variable that will be used to know if a user is logged or not
       - Use this to avoid relying on the token to show different layouts
 
     [ ] Check if the token that comes from the back is the same

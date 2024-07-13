@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import { config } from "../config";
-import { JWT } from "./interfaces";
+import { JWT } from "../../../common/interfaces";
 import { NextFunction, Response } from "express";
 import { HttpStatus } from "../constants/httpStatus";
 
@@ -79,12 +79,12 @@ export function accessTokenNotExpired(token: string) {
 }
 
 export function refreshAccessToken(res: Response, refreshToken: string) {
-  const email = getEmailFromToken(refreshToken);
-  const newAccessToken = getAccessToken({ email });
+  const payload = getDataFromToken(refreshToken);
+  const newAccessToken = getAccessToken(payload);
   res.header("Authorization", newAccessToken);
 }
 
-function getEmailFromToken(token: string) {
-  const { email } = jwt.decode(token) as JWT.Payload;
-  return email;
+function getDataFromToken(token: string) {
+  const { email, role } = jwt.decode(token) as JWT.Payload;
+  return { email, role };
 }
