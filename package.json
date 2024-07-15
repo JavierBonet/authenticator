@@ -7,6 +7,10 @@
   "author": "Javier Bonet <javbonet@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "install-root": "yarn",
+    "install-backend": "cd backend; yarn",
+    "install-frontend": "cd frontend; yarn",
+    "install-all": "npm-run-all --parallel install-root install-backend install-frontend",
     "start-backend": "cd backend; yarn start",
     "start-frontend": "cd frontend; yarn start",
     "start": "npm-run-all --parallel start-backend start-frontend"

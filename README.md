@@ -1,5 +1,5 @@
 # Introduction
-NodeJS authentication and authorization logic with a simple frontend
+NodeJS authentication and authorization logic with a simple React frontend
 
 ## :ledger: Index
 
@@ -11,15 +11,15 @@ NodeJS authentication and authorization logic with a simple frontend
 
 
 ##  :beginner: About
-This repository contains a NodeJS <span><img src="nodejs_logo.png" alt="drawing" width="15"/></span> backend and a simple ReactJS <span><img src="react_logo.png" alt="drawing" width="15"/></span> frontend that implements authentication and authorization logic
+This repository contains a **NodeJS** <span><img src="nodejs_logo.png" alt="drawing" width="15"/></span> backend and a simple **ReactJS** <span><img src="react_logo.png" alt="drawing" width="15"/></span> frontend that implements authentication and authorization logic.
 
 ## :zap: Usage
 
 ###  :electric_plug: Installation
-- Access backend folder and run `yarn` to install the dependencies
-- Access frontend folder and run `yarn` to install the dependencies
+- Run `yarn install-all` in the root folder to install dependencies
 
 ```
+$ yarn
 $ cd backend; yarn
 $ cd frontend; yarn
 ```
