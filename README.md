@@ -24,7 +24,7 @@ $ cd backend; yarn
 $ cd frontend; yarn
 ```
 
-- Use the .sample.env files inside backend and frontend folders to create a .env in each of them and set the corresponding values where needed
+- Use the ***.sample.env*** files inside backend and frontend folders to create a ***.env*** in each of them and set the corresponding values where needed
 
 ###  :package: Commands
 - To start the application, run `yarn start` in the root folder
