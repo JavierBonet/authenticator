@@ -41,7 +41,10 @@ To do list:
     [√] When logged in, set a local storage variable that will be used to know if a user is logged or not
       - Use this to avoid relying on the token to show different layouts
 
-    [ ] Check if the token that comes from the back is the same
+    [√] Check if the token that comes from the back is the same
+
+    [√] Check what's happening when login in and change between the sections, seems that it's wrongly refreshing
+        the token and setting the role
 
 
   [ ] COMPLETE README
