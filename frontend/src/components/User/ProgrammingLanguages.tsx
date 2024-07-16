@@ -6,7 +6,6 @@ import { CircularProgress } from '@mui/material';
 import ProgrammingLanguagesTable from './ProgrammingLanguages/ProgrammingLanguagesTable';
 import styles from './ProgrammingLanguages.module.scss';
 import { toast } from 'react-toastify';
-// import jwt from 'jsonwebtoken';
 
 const ProgrammingLanguages = () => {
   const [programmingLanguages, setProgrammingLanguages] = useState<

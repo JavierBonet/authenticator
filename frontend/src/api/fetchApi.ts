@@ -2,7 +2,6 @@ import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import {
   Keys,
   deleteLocalStorageKey,
-  setLocalStorageKey,
 } from '../components/authentication/common/utils/localStorage';
 
 class FetchApi {
