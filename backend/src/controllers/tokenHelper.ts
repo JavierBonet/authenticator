@@ -1,8 +1,8 @@
 import jwt from "jsonwebtoken";
 import { config } from "../config";
-import { JWT } from "../../../common/interfaces";
 import { NextFunction, Response } from "express";
 import { HttpStatus } from "../constants/httpStatus";
+import { JWT } from "../../interfaces";
 
 export function getAccessToken(payload: JWT.Payload) {
   return jwt.sign(payload, config.jwt.accessTokenKey, {
