@@ -5,8 +5,7 @@ const webpack = require('webpack');
 const Dotenv = require('dotenv-webpack');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
-console.log(process.env.NODE_ENV);
-console.log(isDevelopment);
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   mode: isDevelopment ? 'development' : 'production',
@@ -26,11 +25,12 @@ module.exports = {
       template: './public/index.html',
     }),
     isDevelopment && new Dotenv(),
-    new webpack.DefinePlugin({
-      'process.env.REACT_APP_BACKEND_URL': JSON.stringify(
-        process.env.REACT_APP_BACKEND_URL
-      ),
-    }),
+    isProduction &&
+      new webpack.DefinePlugin({
+        'process.env.REACT_APP_BACKEND_URL': JSON.stringify(
+          process.env.REACT_APP_BACKEND_URL
+        ),
+      }),
     isDevelopment && new webpack.HotModuleReplacementPlugin(),
     isDevelopment && new ReactRefreshWebpackPlugin(),
   ],
