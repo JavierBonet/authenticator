@@ -25,7 +25,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
-    new Dotenv(`./.env.production`),
+    new Dotenv({
+      path: path.resolve(__dirname, './.env.production'),
+    }),
     isDevelopment && new webpack.HotModuleReplacementPlugin(),
     isDevelopment && new ReactRefreshWebpackPlugin(),
   ],
