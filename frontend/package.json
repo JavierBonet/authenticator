@@ -40,7 +40,6 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
-    "@types/axios": "^0.14.0",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
