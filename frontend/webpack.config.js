@@ -23,7 +23,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
-    isDevelopment && new Dotenv(),
+    new Dotenv(`./.env${isDevelopment ? '' : '.production'}`),
     isDevelopment && new webpack.HotModuleReplacementPlugin(),
     isDevelopment && new ReactRefreshWebpackPlugin(),
   ],
