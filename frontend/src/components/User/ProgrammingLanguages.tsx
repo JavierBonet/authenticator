@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect } from 'react';
-import { ProgrammingLanguage } from '../../../../common/interfaces';
+import { JWT, ProgrammingLanguage } from '../../../../common/interfaces';
 import EntitiesApi from '../../api/entitiesApi';
 import TokenContext from '../../contexts/TokenContext';
 import { CircularProgress } from '@mui/material';
