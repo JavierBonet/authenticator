@@ -22,8 +22,7 @@ export function refreshTokenValid(token: string) {
       config.jwt.refreshTokenKey
     ) as JWT.Payload;
     const currentTime = Math.floor(Date.now() / 1000);
-    const isExpired =
-      jwtPayload.expirationTime && jwtPayload.expirationTime <= currentTime;
+    const isExpired = jwtPayload.exp && jwtPayload.exp <= currentTime;
 
     return !isExpired;
   } catch (error) {
@@ -70,8 +69,7 @@ export function accessTokenNotExpired(token: string) {
       config.jwt.accessTokenKey
     ) as JWT.Payload;
     const currentTime = Math.floor(Date.now() / 1000);
-    const isExpired =
-      jwtPayload.expirationTime && jwtPayload.expirationTime <= currentTime;
+    const isExpired = jwtPayload.exp && jwtPayload.exp <= currentTime;
 
     return !isExpired;
   } catch (error) {
