@@ -62,9 +62,11 @@ export interface ProgrammingLanguage {
   usage: string[];
 }
 
-declare module JWT {
-  export interface Payload extends JwtPayload {
-    email: string;
-    role: string;
+declare global {
+  namespace JWT {
+    export interface Payload extends JwtPayload {
+      email: string;
+      role: string;
+    }
   }
 }
