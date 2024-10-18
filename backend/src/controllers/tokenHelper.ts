@@ -17,12 +17,13 @@ export function getRefreshToken(payload: JWT.Payload) {
 
 export function refreshTokenValid(token: string) {
   try {
-    const { exp: expirationTime } = jwt.verify(
+    const jwtPayload = jwt.verify(
       token,
       config.jwt.refreshTokenKey
     ) as JWT.Payload;
     const currentTime = Math.floor(Date.now() / 1000);
-    const isExpired = expirationTime && expirationTime <= currentTime;
+    const isExpired =
+      jwtPayload.expirationTime && jwtPayload.expirationTime <= currentTime;
 
     return !isExpired;
   } catch (error) {
@@ -64,12 +65,13 @@ export function accessTokenValid(token: string) {
 
 export function accessTokenNotExpired(token: string) {
   try {
-    const { exp: expirationTime } = jwt.verify(
+    const jwtPayload = jwt.verify(
       token,
       config.jwt.accessTokenKey
     ) as JWT.Payload;
     const currentTime = Math.floor(Date.now() / 1000);
-    const isExpired = expirationTime && expirationTime <= currentTime;
+    const isExpired =
+      jwtPayload.expirationTime && jwtPayload.expirationTime <= currentTime;
 
     return !isExpired;
   } catch (error) {
